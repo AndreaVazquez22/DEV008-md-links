@@ -5,13 +5,6 @@
 * [1. Introducción](#1-introducción)
 * [2. Diagrama de Flujo  ](#2-diagrama-de-flujo)
 * [3. Resumen del programa](#3-resumen-del-programa)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Entregables](#6-entregables)
-* [7. Hacker edition](#7-hacker-edition)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
-* [10. Achicando el problema](#10-achicando-el-problema)
 
 ***
 
