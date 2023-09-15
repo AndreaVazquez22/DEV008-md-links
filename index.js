@@ -89,7 +89,7 @@ const mdLinks = (filepath, options) => {
   });
 };
 
-mdLinks("./README.md", { validate: false })
+mdLinks("./README.md", { validate: true })
   .then((result) => {
     console.log(result);
   })
