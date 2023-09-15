@@ -27,9 +27,9 @@ const pathFile = (filepath) => {
 };
 
 //Saber si es un directivo
-const directoryPath = (filepath) => {
+/*const directoryPath = (filepath) => {
   return fs.statSync(filepath).isDirectory();
-};
+};*/
 
 //Lee el archivo md
 const readFileMd = (filepath, callback) => {
@@ -48,7 +48,7 @@ const readLinks = (textData, filepath) => {
     let text = singleMatch.exec(allLinks[i]);
     if (text) {
       result.push({
-        completeLink: text[0],
+        //completeLink: text[0],
         textLink: text[1],
         url: text[2],
         file: filepath,
@@ -91,7 +91,7 @@ module.exports = {
   pathAbsolute,
   pathExt,
   pathFile,
-  directoryPath,
+  //directoryPath,
   convertPath,
   readFileMd,
   readLinks,
